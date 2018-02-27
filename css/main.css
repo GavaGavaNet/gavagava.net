@@ -1,0 +1,166 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+hr {
+  width:100%;
+  border: none;
+  height: 20px;
+  background: linear-gradient(-135deg, #fff 10px, transparent 0) 0 10px, linear-gradient(135deg, #fff 10px, rgb(244, 152, 43) 0) 0 10px;
+  background-color: #fff;
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 20px;
+}
+
+#header-menu {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 152, 43);
+  color: white;
+  font-weight: bold;
+}
+
+#header-menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#header-image {
+  height: 320px;
+  width: 100%;
+  background: url(../assets/site_top.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-content {
+  max-width: 800px;
+  /* min-height: 300px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  align-self: center;
+}
+
+.main-content.left {
+  align-items: flex-start;
+}
+
+#footer {
+  min-height: 100px;
+  background-color: rgb(244, 152, 43);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.footer-links a {
+  color: white;
+  font-weight: bold;
+  text-decoration-color: rgba(255,255,255,0.7);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-logo {
+  height: 200px;
+  width: 200px;
+}
+
+.game-logo.small {
+  height: 90px;
+  width: 90px;
+}
+
+.game-right {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.appstore-icon {
+  width: 135px;
+  height: 40px;
+}
+
+.icons-shift {
+  margin-top: 20px;
+}
+
+.footer-icons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.white {
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.down {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  /* justify-content: center; */
+}
+
+.footer-copyright {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.ml30 {
+  margin-left: 30px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.red {
+  background-color: red;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.portrait {
+  width: 100px;
+}
