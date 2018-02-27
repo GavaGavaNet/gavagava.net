@@ -161,6 +161,10 @@ hr {
   align-self: center;
 }
 
+.self-left: {
+  align-self: flex-start;
+}
+
 .portrait {
   width: 100px;
 }
